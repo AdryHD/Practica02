@@ -9,6 +9,8 @@ import javax.swing.JFrame;
 import proyecto.ExcepcionTransaccion;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.*;
+
 /**
  *
  * @author adryhd
@@ -19,8 +21,8 @@ public class Practica02 {
 
     public static void main(String[] args) throws ExcepcionTransaccion {
         GestionTransacciones gestion = new GestionTransacciones();
-
-        gestion.mostrarMenu();
+        new Login();
+        //gestion.mostrarMenu();
 
     }
 }
