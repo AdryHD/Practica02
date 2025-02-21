@@ -19,9 +19,9 @@ public class Login extends JFrame{
     public Login() {
         //**Mostrar la ventana**
         setContentPane(MainPanel);
-        setTitle("Iniciar Sesion");
+        setTitle("Iniciar Sesión");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(800, 800);
+        setSize(200, 200);
         setVisible(true);
 
         //**Eventos de la interfaz**
