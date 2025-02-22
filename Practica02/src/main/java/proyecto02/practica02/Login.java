@@ -34,11 +34,8 @@ public class Login extends JFrame{
                 String password = PasswordTxt.getText();
                 if (user.equals("Practica02") && password.equals("Secreto123")) {
                     setVisible(false);
-                    try {
-                        gestion.mostrarMenu();
-                    } catch (ExcepcionTransaccion ex) {
-                        throw new RuntimeException(ex);
-                    }
+                    GestionTransacciones ventanaGestion = new GestionTransacciones();
+                    ventanaGestion.setVisible(true);
                 }else{
                     JOptionPane.showMessageDialog(null,"Confirme sus credenciales");
                 }

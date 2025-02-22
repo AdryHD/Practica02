@@ -20,9 +20,6 @@ public class Practica02 {
  
 
     public static void main(String[] args) throws ExcepcionTransaccion {
-        GestionTransacciones gestion = new GestionTransacciones();
         new Login();
-        //gestion.mostrarMenu();
-
     }
 }
