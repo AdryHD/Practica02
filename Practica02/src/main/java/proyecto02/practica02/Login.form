@@ -34,7 +34,9 @@
       </component>
       <component id="b56a9" class="javax.swing.JLabel" binding="UserLbl">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="51" height="94"/>
+          </grid>
         </constraints>
         <properties>
           <alignmentY value="0.2"/>
@@ -43,7 +45,9 @@
       </component>
       <component id="689ee" class="javax.swing.JLabel" binding="PasswordLbl">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="75" height="53"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Contraseña:"/>
@@ -55,7 +59,7 @@
         </constraints>
         <properties>
           <background color="-13354382"/>
-          <text value="Iniciar Sesion"/>
+          <text value="Iniciar Sesión"/>
         </properties>
       </component>
       <component id="95294" class="javax.swing.JButton" binding="CleanBtn">
